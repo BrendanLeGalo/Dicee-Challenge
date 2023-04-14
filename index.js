@@ -6,8 +6,6 @@ console.log(n2);
 
 var img1 = "images/dice" + n1 + ".png";
 var img2 = "images/dice" + n2 + ".png";
-console.log(img1);
-console.log(img2);
 
 document.querySelectorAll("img")[0].setAttribute("src",img1);
 document.querySelectorAll("img")[1].setAttribute("src",img2);
