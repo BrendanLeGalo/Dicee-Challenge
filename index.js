@@ -15,7 +15,7 @@ if (n1 > n2){
     document.querySelector("h1").textContent="Player 1 wins!";
 }
 else if (n1 === n2){
-    document.querySelector("h1").textContent="Draw!";
+    document.querySelector("h1").textContent="Draw!!!";
 }
 else {
     document.querySelector("h1").textContent="Player 2 wins!";
