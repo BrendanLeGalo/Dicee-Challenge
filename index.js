@@ -21,7 +21,6 @@ else {
     document.querySelector("h1").textContent="Player 2 wins!";
 }
 
-
-document.querySelector("btn").addEventListener("click",function(){
+document.querySelector(".btn").addEventListener("click",function(){
     location.reload();
 })
