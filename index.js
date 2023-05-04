@@ -20,3 +20,8 @@ else if (n1 === n2){
 else {
     document.querySelector("h1").textContent="Player 2 wins!";
 }
+
+
+document.querySelector("button").addEventListener("click",function(){
+    location.reload();
+})
