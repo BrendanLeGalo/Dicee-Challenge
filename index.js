@@ -22,6 +22,6 @@ else {
 }
 
 
-document.querySelector("button").addEventListener("click",function(){
+document.querySelector("btn").addEventListener("click",function(){
     location.reload();
 })
